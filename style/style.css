@@ -1,0 +1,131 @@
+*{
+      margin: 0;
+      padding: 0;
+      
+}
+.navbar{
+      position: sticky;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0px;
+      background-color: #000000;
+      color: white;
+      width: auto;
+      height: auto;
+}
+.navbar ul{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 10px;
+}
+.navbar ul li{
+      list-style: none;
+}
+.navbar ul li a:hover{
+      color: orange;
+}
+.navbar ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+}
+.navbar ul li .dropdown{
+      position: relative;
+      display: inline-block;
+}
+.navbar ul li .dropdown .dropbutton{
+      background: transparent;
+      color: white;
+      font-size: 14px;
+      font-weight: lighter;
+      border: none;
+}
+.navbar ul li .dropdown .dropbutton:hover{
+      color: orange;
+}
+.navbar ul li .dropdown .dropdown-content{
+      display: none;
+      position: absolute;
+      background-color: black;
+      width: 130px;
+      box-shadow: 0px 8px 10px 0px black;
+}
+.navbar ul li .dropdown .dropdown-content a{
+      /* border: 2px solid white; */
+      color: #fff;
+      text-decoration: none;
+      padding: 6px 6px;
+      display: block;
+}
+.navbar ul li .dropdown:hover .dropdown-content{
+      transition: 0.5s ease-in;
+      display: block;
+}
+
+
+.navbar #search{
+      border-radius: 5px;
+      height: 30px;
+      font-size: 14px;
+      width: 150px;
+}
+
+
+
+#about-us{
+      background-color: antiquewhite;
+      width: auto;
+      height: 70vh;
+}
+.container{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding: 20px 26px;
+      width: 80%;
+}
+.container .team{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+}
+.container .team .team-detail{
+      display: flex;
+      gap: 40px;
+      width: 70%;
+}
+
+.container .team .team-detail .details{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.container .team .team-detail .details img{
+      height: 300px;
+      width: 500px;
+      border-radius: 50%;
+}
+
+
+#faq{
+      width: auto;
+      height: 70vh;
+      background-color: aliceblue;
+}
+.faq-container{
+      padding: 30px;
+}
+.faq-container .grid{
+      width: 80%;
+}
+.faq-container .grid .question{
+      border: 2px solid orange;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+}
+
+
+
